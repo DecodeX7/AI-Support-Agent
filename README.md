@@ -605,7 +605,6 @@ Possible future improvements include:
 
 **AmazonHelp AI Support Agent**
 
-Built as part of the **Hiver SDE Intern Take-Home Assignment**.
 
 **Repository:**  
 https://github.com/DecodeX7/AI-Support-Agent
