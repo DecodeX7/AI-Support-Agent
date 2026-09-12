@@ -1,6 +1,6 @@
 # 🤖 AmazonHelp AI Support Agent
 
-> An end-to-end AI customer support agent built for the **Hiver SDE Intern Take-Home Assignment** using the **Customer Support on Twitter** dataset.
+> An end-to-end AI customer support agent builted using the **Customer Support on Twitter** dataset.
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
