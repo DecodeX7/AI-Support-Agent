@@ -1,0 +1,87 @@
+{
+  "task": "AmazonHelp semantic retrieval evaluation",
+  "method": "SentenceTransformer all-MiniLM-L6-v2 + FAISS IndexFlatIP with normalized embeddings",
+  "query_field": "customer_messages",
+  "gold_label_field": "golden_intent",
+  "metrics": {
+    "evaluated_examples": 200,
+    "rag_documents": 5000,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "top1_accuracy": 0.48,
+    "recall_at_3": 0.715,
+    "recall_at_5": 0.77,
+    "recall_at_10": 0.86,
+    "mrr": 0.6128,
+    "mean_latency_ms": 24.61,
+    "median_latency_ms": 23.14
+  },
+  "intent_breakdown": {
+    "account_access": {
+      "examples": 18,
+      "top1_accuracy": 1.0,
+      "recall_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "delivery_shipping": {
+      "examples": 19,
+      "top1_accuracy": 0.6842,
+      "recall_at_5": 1.0,
+      "mrr": 0.8175
+    },
+    "general_support": {
+      "examples": 19,
+      "top1_accuracy": 0.3158,
+      "recall_at_5": 0.4211,
+      "mrr": 0.3998
+    },
+    "order_cancellation": {
+      "examples": 18,
+      "top1_accuracy": 0.3889,
+      "recall_at_5": 0.8333,
+      "mrr": 0.5949
+    },
+    "payment": {
+      "examples": 18,
+      "top1_accuracy": 0.6667,
+      "recall_at_5": 0.9444,
+      "mrr": 0.7917
+    },
+    "prime_membership": {
+      "examples": 18,
+      "top1_accuracy": 0.4444,
+      "recall_at_5": 0.9444,
+      "mrr": 0.6898
+    },
+    "product_issue": {
+      "examples": 18,
+      "top1_accuracy": 0.2222,
+      "recall_at_5": 0.4444,
+      "mrr": 0.3236
+    },
+    "refund": {
+      "examples": 18,
+      "top1_accuracy": 0.5556,
+      "recall_at_5": 0.8889,
+      "mrr": 0.713
+    },
+    "return_replacement": {
+      "examples": 18,
+      "top1_accuracy": 0.3333,
+      "recall_at_5": 0.7778,
+      "mrr": 0.5293
+    },
+    "security_fraud": {
+      "examples": 18,
+      "top1_accuracy": 0.3333,
+      "recall_at_5": 0.6111,
+      "mrr": 0.4329
+    },
+    "technical_app": {
+      "examples": 18,
+      "top1_accuracy": 0.3333,
+      "recall_at_5": 0.6111,
+      "mrr": 0.4486
+    }
+  },
+  "evaluation_note": "Recall@K and MRR measure whether at least one retrieved historical example has the same intent as the verified golden example. This is an intent-consistency proxy, not a manually annotated document-relevance benchmark."
+}

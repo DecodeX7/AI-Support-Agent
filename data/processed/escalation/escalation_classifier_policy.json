@@ -1,0 +1,13 @@
+{
+  "model": "amazonhelp_escalation_classifier",
+  "threshold": 0.35,
+  "features": [
+    "word_tfidf_1_2_grams",
+    "character_tfidf_3_5_grams",
+    "security_risk_features",
+    "high_risk_features",
+    "question_feature",
+    "urgency_feature"
+  ],
+  "decision": "escalate_when_probability_is_at_or_above_threshold"
+}

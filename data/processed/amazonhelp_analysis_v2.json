@@ -1,0 +1,73 @@
+{
+  "total_conversations": 100503,
+  "candidate_intent_distribution": [
+    {
+      "candidate_intent": "other_general",
+      "conversation_count": 79531,
+      "percentage": 79.13
+    },
+    {
+      "candidate_intent": "membership_issue",
+      "conversation_count": 6383,
+      "percentage": 6.35
+    },
+    {
+      "candidate_intent": "refund_issue",
+      "conversation_count": 4062,
+      "percentage": 4.04
+    },
+    {
+      "candidate_intent": "delivery_issue",
+      "conversation_count": 4014,
+      "percentage": 3.99
+    },
+    {
+      "candidate_intent": "cancellation_issue",
+      "conversation_count": 2056,
+      "percentage": 2.05
+    },
+    {
+      "candidate_intent": "technical_issue",
+      "conversation_count": 1435,
+      "percentage": 1.43
+    },
+    {
+      "candidate_intent": "return_replacement",
+      "conversation_count": 1077,
+      "percentage": 1.07
+    },
+    {
+      "candidate_intent": "security_fraud",
+      "conversation_count": 1048,
+      "percentage": 1.04
+    },
+    {
+      "candidate_intent": "payment_issue",
+      "conversation_count": 494,
+      "percentage": 0.49
+    },
+    {
+      "candidate_intent": "product_issue",
+      "conversation_count": 255,
+      "percentage": 0.25
+    },
+    {
+      "candidate_intent": "account_issue",
+      "conversation_count": 148,
+      "percentage": 0.15
+    }
+  ],
+  "clear_intent_candidates": 20972,
+  "ambiguous_candidates": 3743,
+  "strong_rag_candidates": 9429,
+  "golden_review_candidates": 19038,
+  "escalation_candidates": 1157,
+  "generic_reply_count": 10480,
+  "actionable_reply_count": 47153,
+  "difficulty_distribution": {
+    "medium": 67997,
+    "hard": 31444,
+    "easy": 1062
+  },
+  "warning": "All intent labels and quality flags are heuristic candidate labels. Human validation is required before using them as evaluation ground truth."
+}

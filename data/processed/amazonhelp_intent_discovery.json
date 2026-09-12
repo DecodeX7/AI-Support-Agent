@@ -1,0 +1,13 @@
+{
+  "input_file": "data\\processed\\amazonhelp_conversations_clean.csv",
+  "conversations_clustered": 94263,
+  "n_clusters": 20,
+  "tfidf_features": 12000,
+  "method": "TF-IDF with unigrams+bigrams + MiniBatchKMeans",
+  "outputs": [
+    "amazonhelp_cluster_profiles.csv",
+    "amazonhelp_cluster_samples.csv",
+    "amazonhelp_cluster_review_sheet.csv"
+  ],
+  "warning": "Clusters are discovery groups, not final intent labels. Review representative examples before defining the final taxonomy."
+}

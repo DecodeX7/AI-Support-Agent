@@ -1,0 +1,29 @@
+{
+  "input_file": "D:\\My Work\\AI Support Agent\\data\\processed\\amazonhelp_conversations_clean.csv",
+  "output_file": "D:\\My Work\\AI Support Agent\\data\\processed\\amazonhelp_golden_candidates.csv",
+  "candidate_count": 297,
+  "target_final_golden_set": 200,
+  "candidate_intents": {
+    "delivery_issue": 27,
+    "payment_issue": 27,
+    "refund_issue": 27,
+    "return_replacement": 27,
+    "product_issue": 27,
+    "account_issue": 27,
+    "membership_issue": 27,
+    "technical_issue": 27,
+    "cancellation_issue": 27,
+    "security_fraud": 27,
+    "general_support": 27
+  },
+  "difficulty_hints": {
+    "medium": 119,
+    "hard": 99,
+    "easy": 79
+  },
+  "escalation_hints": {
+    "false": 207,
+    "true": 90
+  },
+  "note": "These are heuristic candidates only. Manually verify the final golden labels before using them for evaluation."
+}

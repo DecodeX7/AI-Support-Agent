@@ -1,0 +1,78 @@
+# ============================================================
+# Python
+# ============================================================
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Raw dataset - DO NOT COMMIT
+# ============================================================
+
+data/raw/
+data/twcs.csv
+
+# ============================================================
+# Large intermediate preprocessing artifacts
+# ============================================================
+
+data/processed/amazonhelp_conversations_clean.csv
+data/processed/amazonhelp_tweets.csv
+data/processed/amazonhelp_intent_candidates.csv
+data/processed/amazonhelp_intent_candidates_v2.csv
+data/processed/amazonhelp_review_candidates_v2.csv
+data/processed/amazonhelp_rag_candidates.csv
+data/processed/amazonhelp_rag_candidates_v2.csv
+
+# ============================================================
+# Model / dataset caches
+# ============================================================
+
+.cache/
+huggingface/
+transformers_cache/
+
+# ============================================================
+# Node / React
+# ============================================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# IDE
+# ============================================================
+
+.vscode/
+.idea/
+# Exploratory generated artifacts
+brand_analysis/
+conversation_analysis/
+dataset_profile/

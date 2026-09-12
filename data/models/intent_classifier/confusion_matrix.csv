@@ -1,0 +1,12 @@
+﻿,account_access,delivery_shipping,general_support,order_cancellation,payment,prime_membership,product_issue,refund,return_replacement,security_fraud,technical_app
+account_access,18,0,0,0,0,0,0,0,0,0,0
+delivery_shipping,0,18,0,0,0,0,0,0,1,0,0
+general_support,0,1,15,1,1,0,0,1,0,0,0
+order_cancellation,0,4,1,13,0,0,0,0,0,0,0
+payment,1,0,0,0,16,0,0,0,0,0,1
+prime_membership,0,5,0,1,0,12,0,0,0,0,0
+product_issue,1,1,0,1,0,1,9,2,1,2,0
+refund,0,0,0,0,1,0,0,16,1,0,0
+return_replacement,0,0,1,0,0,0,0,0,15,0,2
+security_fraud,9,0,0,0,0,0,1,1,0,7,0
+technical_app,2,2,2,2,1,0,0,0,0,0,9

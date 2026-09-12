@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+joblib
+sentence-transformers
+faiss-cpu
+langgraph
+requests
+python-dotenv
+fastapi
+uvicorn
+pydantic

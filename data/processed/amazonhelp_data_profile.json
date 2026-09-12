@@ -1,0 +1,9 @@
+{
+  "brand": "AmazonHelp",
+  "total_amazonhelp_conversations": 100503,
+  "usable_conversations": 97809,
+  "multi_turn_conversations": 43406,
+  "median_turns": 2.0,
+  "mean_turns": 3.9633145279245396,
+  "max_turns": 64
+}

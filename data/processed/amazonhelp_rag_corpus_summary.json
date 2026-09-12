@@ -1,0 +1,22 @@
+{
+  "source_conversations": 100503,
+  "golden_conversations_excluded": 200,
+  "quality_candidates_before_sampling": 60475,
+  "rag_documents": 5000,
+  "golden_set_size": 200,
+  "golden_overlap_in_output": 0,
+  "intent_distribution": {
+    "delivery_shipping": 712,
+    "technical_app": 493,
+    "payment": 485,
+    "general_support": 480,
+    "prime_membership": 478,
+    "refund": 473,
+    "return_replacement": 473,
+    "account_access": 468,
+    "order_cancellation": 463,
+    "product_issue": 244,
+    "security_fraud": 231
+  },
+  "note": "RAG corpus contains historical problem-response examples and explicitly excludes the golden evaluation conversations."
+}

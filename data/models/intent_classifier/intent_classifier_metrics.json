@@ -1,0 +1,97 @@
+{
+  "task": "AmazonHelp customer intent classification",
+  "method": "TF-IDF unigrams+bigrams + Logistic Regression with balanced class weights",
+  "evaluation": {
+    "training_examples": 5000,
+    "golden_examples": 200,
+    "training_golden_overlap": 0,
+    "classes": [
+      "account_access",
+      "delivery_shipping",
+      "general_support",
+      "order_cancellation",
+      "payment",
+      "prime_membership",
+      "product_issue",
+      "refund",
+      "return_replacement",
+      "security_fraud",
+      "technical_app"
+    ],
+    "accuracy": 0.74,
+    "macro_f1": 0.7311,
+    "weighted_f1": 0.7314,
+    "mean_confidence": 0.4377,
+    "low_confidence_rate_below_0_60": 0.8,
+    "low_confidence_rate_below_0_70": 0.855,
+    "per_intent": {
+      "account_access": {
+        "precision": 0.5806,
+        "recall": 1.0,
+        "f1": 0.7347,
+        "support": 18
+      },
+      "delivery_shipping": {
+        "precision": 0.5806,
+        "recall": 0.9474,
+        "f1": 0.72,
+        "support": 19
+      },
+      "general_support": {
+        "precision": 0.7895,
+        "recall": 0.7895,
+        "f1": 0.7895,
+        "support": 19
+      },
+      "order_cancellation": {
+        "precision": 0.7222,
+        "recall": 0.7222,
+        "f1": 0.7222,
+        "support": 18
+      },
+      "payment": {
+        "precision": 0.8421,
+        "recall": 0.8889,
+        "f1": 0.8649,
+        "support": 18
+      },
+      "prime_membership": {
+        "precision": 0.9231,
+        "recall": 0.6667,
+        "f1": 0.7742,
+        "support": 18
+      },
+      "product_issue": {
+        "precision": 0.9,
+        "recall": 0.5,
+        "f1": 0.6429,
+        "support": 18
+      },
+      "refund": {
+        "precision": 0.8,
+        "recall": 0.8889,
+        "f1": 0.8421,
+        "support": 18
+      },
+      "return_replacement": {
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333,
+        "support": 18
+      },
+      "security_fraud": {
+        "precision": 0.7778,
+        "recall": 0.3889,
+        "f1": 0.5185,
+        "support": 18
+      },
+      "technical_app": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1": 0.6,
+        "support": 18
+      }
+    }
+  },
+  "leakage_protection": "The verified 200-example golden set was held out. Training used the 5,000-document RAG corpus, which was constructed with the golden conversations excluded."
+}

@@ -1,0 +1,12 @@
+{
+  "method": "risk_score_policy",
+  "threshold": 1,
+  "signals": [
+    "security_fraud_intent",
+    "explicit_security_signal",
+    "high_risk_language",
+    "intent_confidence",
+    "intent_confidence_margin",
+    "rag_similarity"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "brand": "AmazonHelp",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "similarity": "cosine",
+  "faiss_index": "IndexFlatIP",
+  "documents": 5000,
+  "embedding_dimension": 384,
+  "source_file": "D:\\My Work\\AI Support Agent\\data\\processed\\amazonhelp_rag_corpus.csv",
+  "text_column": "document_text",
+  "golden_overlap_checked": true
+}

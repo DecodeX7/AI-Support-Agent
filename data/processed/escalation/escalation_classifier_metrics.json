@@ -1,0 +1,21 @@
+{
+  "examples": 200,
+  "positive_examples": 84,
+  "negative_examples": 116,
+  "cross_validation": {
+    "folds": 5,
+    "accuracy": 0.715,
+    "precision": 0.6174,
+    "recall": 0.8452,
+    "f1": 0.7136
+  },
+  "selected_threshold": 0.35,
+  "confusion_matrix": {
+    "tn": 72,
+    "fp": 44,
+    "fn": 13,
+    "tp": 71
+  },
+  "model": "TF-IDF word + character features + explicit risk features + Logistic Regression",
+  "evaluation_note": "Metrics are out-of-fold predictions from 5-fold stratified cross-validation."
+}

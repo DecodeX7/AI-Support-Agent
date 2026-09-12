@@ -1,0 +1,12 @@
+candidate_intent,conversation_count,percentage
+other_general,79531,79.13
+membership_issue,6383,6.35
+refund_issue,4062,4.04
+delivery_issue,4014,3.99
+cancellation_issue,2056,2.05
+technical_issue,1435,1.43
+return_replacement,1077,1.07
+security_fraud,1048,1.04
+payment_issue,494,0.49
+product_issue,255,0.25
+account_issue,148,0.15
